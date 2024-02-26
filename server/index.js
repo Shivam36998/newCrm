@@ -9,7 +9,7 @@ import user from  "./routes/user.js";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const DATABASE_URL = process.env.DATABASE_URL || "mongodb+srv://shivam0076:shivam0076@shivam.klepebz.mongodb.net/crm?retryWrites=true&w=majority";
+const DATABASE_URL = process.env.DATABASE_URL || mongodb+srv://abhisheksingh:Mon$ter25452@cluster0.vnlxnb7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0;
 // const DATABASE_URL = process.env.DATABASE_URL || "mongodb://127.0.0.1:27017/crm";
 
 connectdb(DATABASE_URL);
