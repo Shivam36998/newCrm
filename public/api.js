@@ -1,4 +1,4 @@
-const hostLink = "http://localhost:3000"
+const hostLink = "https://new-crm-theta.vercel.app/";
 
 const registerNewUserLink = `${hostLink}/auth/newUser`;
 const signinLink = `${hostLink}/auth/signin`;
